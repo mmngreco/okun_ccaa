@@ -1,9 +1,9 @@
 # OKUN POR CCCAA:
 
-Análisis de datos, por @mpa y @mmngreco.
+Análisis de datos, elaborado por @mpajovin y @mmngreco.
 
-- code: Contiene Notebooks usados para la elaboración del análisis.
-- data_work: Se encuentran los datos usados, y creados.
-- imgs: Contiene los gráficos creados.
+- __code:__ Contiene Notebooks usados para la elaboración del análisis.
+- __data_work:__ Se encuentran los datos usados, y creados.
+- __imgs:__ Contiene los gráficos creados.
 
-[footnote]: 
+[footnote] 
