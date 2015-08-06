@@ -7,3 +7,5 @@ Análisis de datos, elaborado por @mpajovin y @mmngreco.
 - __imgs:__ Contiene los gráficos creados.
 
 - [] Regresiones
+---
+[md syntax](https://help.github.com/articles/writing-on-github/)
