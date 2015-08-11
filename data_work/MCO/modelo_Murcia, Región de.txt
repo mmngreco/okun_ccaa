@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      Murcia, Región de   R-squared:                       0.565
+Model:                            OLS   Adj. R-squared:                  0.551
+Method:                 Least Squares   F-statistic:                     40.27
+Date:                Tue, 11 Aug 2015   Prob (F-statistic):           4.61e-07
+Time:                        22:01:38   Log-Likelihood:                -64.300
+No. Observations:                  33   AIC:                             132.6
+Df Residuals:                      31   BIC:                             135.6
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=====================================================================================
+                        coef    std err          t      P>|t|      [95.0% Conf. Int.]
+-------------------------------------------------------------------------------------
+const                 2.2092      0.397      5.559      0.000         1.399     3.020
+Murcia, Región de    -0.7323      0.115     -6.346      0.000        -0.968    -0.497
+==============================================================================
+Omnibus:                        0.394   Durbin-Watson:                   1.881
+Prob(Omnibus):                  0.821   Jarque-Bera (JB):                0.427
+Skew:                           0.232   Prob(JB):                        0.808
+Kurtosis:                       2.692   Cond. No.                         4.65
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

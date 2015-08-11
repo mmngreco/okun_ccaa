@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               Canarias   R-squared:                       0.545
+Model:                            OLS   Adj. R-squared:                  0.531
+Method:                 Least Squares   F-statistic:                     37.17
+Date:                Tue, 11 Aug 2015   Prob (F-statistic):           9.33e-07
+Time:                        22:01:38   Log-Likelihood:                -66.945
+No. Observations:                  33   AIC:                             137.9
+Df Residuals:                      31   BIC:                             140.9
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+const          2.2710      0.423      5.366      0.000         1.408     3.134
+Canarias      -0.7237      0.119     -6.096      0.000        -0.966    -0.482
+==============================================================================
+Omnibus:                        4.141   Durbin-Watson:                   1.225
+Prob(Omnibus):                  0.126   Jarque-Bera (JB):                2.899
+Skew:                           0.703   Prob(JB):                        0.235
+Kurtosis:                       3.362   Cond. No.                         4.71
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

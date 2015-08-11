@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 España   R-squared:                       0.728
+Model:                            OLS   Adj. R-squared:                  0.720
+Method:                 Least Squares   F-statistic:                     83.16
+Date:                Tue, 11 Aug 2015   Prob (F-statistic):           2.76e-10
+Time:                        22:01:38   Log-Likelihood:                -51.033
+No. Observations:                  33   AIC:                             106.1
+Df Residuals:                      31   BIC:                             109.1
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+const          2.3059      0.288      8.008      0.000         1.719     2.893
+España        -0.8634      0.095     -9.119      0.000        -1.057    -0.670
+==============================================================================
+Omnibus:                        1.309   Durbin-Watson:                   1.142
+Prob(Omnibus):                  0.520   Jarque-Bera (JB):                1.078
+Skew:                          -0.428   Prob(JB):                        0.583
+Kurtosis:                       2.771   Cond. No.                         4.54
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

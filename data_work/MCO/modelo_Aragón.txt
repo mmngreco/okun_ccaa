@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 Aragón   R-squared:                       0.459
+Model:                            OLS   Adj. R-squared:                  0.442
+Method:                 Least Squares   F-statistic:                     26.31
+Date:                Tue, 11 Aug 2015   Prob (F-statistic):           1.48e-05
+Time:                        22:01:38   Log-Likelihood:                -61.089
+No. Observations:                  33   AIC:                             126.2
+Df Residuals:                      31   BIC:                             129.2
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+const          1.6214      0.367      4.419      0.000         0.873     2.370
+Aragón        -0.5588      0.109     -5.129      0.000        -0.781    -0.337
+==============================================================================
+Omnibus:                        2.732   Durbin-Watson:                   1.268
+Prob(Omnibus):                  0.255   Jarque-Bera (JB):                1.851
+Skew:                          -0.374   Prob(JB):                        0.396
+Kurtosis:                       2.114   Cond. No.                         4.64
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

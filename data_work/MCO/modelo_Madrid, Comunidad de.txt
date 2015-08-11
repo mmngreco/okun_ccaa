@@ -1,0 +1,25 @@
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     Madrid, Comunidad de   R-squared:                       0.562
+Model:                              OLS   Adj. R-squared:                  0.547
+Method:                   Least Squares   F-statistic:                     39.70
+Date:                  Tue, 11 Aug 2015   Prob (F-statistic):           5.22e-07
+Time:                          22:01:38   Log-Likelihood:                -59.162
+No. Observations:                    33   AIC:                             122.3
+Df Residuals:                        31   BIC:                             125.3
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [95.0% Conf. Int.]
+----------------------------------------------------------------------------------------
+const                    2.1121      0.396      5.330      0.000         1.304     2.920
+Madrid, Comunidad de    -0.6925      0.110     -6.301      0.000        -0.917    -0.468
+==============================================================================
+Omnibus:                        1.163   Durbin-Watson:                   1.621
+Prob(Omnibus):                  0.559   Jarque-Bera (JB):                0.722
+Skew:                          -0.362   Prob(JB):                        0.697
+Kurtosis:                       2.987   Cond. No.                         5.72
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

@@ -1,0 +1,25 @@
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     Castilla - La Mancha   R-squared:                       0.402
+Model:                              OLS   Adj. R-squared:                  0.383
+Method:                   Least Squares   F-statistic:                     20.84
+Date:                  Tue, 11 Aug 2015   Prob (F-statistic):           7.44e-05
+Time:                          22:01:38   Log-Likelihood:                -65.059
+No. Observations:                    33   AIC:                             134.1
+Df Residuals:                        31   BIC:                             137.1
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [95.0% Conf. Int.]
+----------------------------------------------------------------------------------------
+const                    1.5888      0.381      4.168      0.000         0.811     2.366
+Castilla - La Mancha    -0.4482      0.098     -4.565      0.000        -0.648    -0.248
+==============================================================================
+Omnibus:                        1.957   Durbin-Watson:                   1.324
+Prob(Omnibus):                  0.376   Jarque-Bera (JB):                1.126
+Skew:                           0.440   Prob(JB):                        0.569
+Kurtosis:                       3.211   Cond. No.                         4.85
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

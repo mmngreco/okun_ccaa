@@ -1,0 +1,25 @@
+                                 OLS Regression Results                                
+=======================================================================================
+Dep. Variable:     Navarra, Comunidad Foral de   R-squared:                       0.486
+Model:                                     OLS   Adj. R-squared:                  0.469
+Method:                          Least Squares   F-statistic:                     29.29
+Date:                         Tue, 11 Aug 2015   Prob (F-statistic):           6.58e-06
+Time:                                 22:01:38   Log-Likelihood:                -52.368
+No. Observations:                           33   AIC:                             108.7
+Df Residuals:                               31   BIC:                             111.7
+Df Model:                                    1                                         
+Covariance Type:                     nonrobust                                         
+===============================================================================================
+                                  coef    std err          t      P>|t|      [95.0% Conf. Int.]
+-----------------------------------------------------------------------------------------------
+const                           1.0471      0.265      3.950      0.000         0.506     1.588
+Navarra, Comunidad Foral de    -0.4067      0.075     -5.412      0.000        -0.560    -0.253
+==============================================================================
+Omnibus:                        2.904   Durbin-Watson:                   2.130
+Prob(Omnibus):                  0.234   Jarque-Bera (JB):                1.388
+Skew:                           0.003   Prob(JB):                        0.499
+Kurtosis:                       1.995   Cond. No.                         4.54
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
