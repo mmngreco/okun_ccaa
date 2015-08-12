@@ -1,12 +1,16 @@
-# OKUN POR CCCAA:
+# ESTIMACIÓN DE LA LEY DE OKUN POR CCCAA:
 
 Análisis de datos, elaborado por @mpajovin y @mmngreco.
 
-- __code:__ Contiene Notebooks usados para la elaboración del análisis.
-- __data_work:__ Se encuentran los datos usados, y creados.
-- __imgs:__ Contiene los gráficos creados.
+## ÍNDICE DE DIRECTORIOS:
+- __code:__ Contiene los Notebooks y códigos usados para la elaboración del análisis.
+- __data_work:__ Contiene ficheros de datos originales, elaborados y resultados obtenidos.
+- __imgs:__ Contiene gráficos.
 
-- [ ] Regresiones
+- [x] Regresiones
+- [ ] Contenido
+- [ ] Interpretación
+- [ ] Comprobacion
 
 ---
 [md syntax](https://help.github.com/articles/writing-on-github/)
