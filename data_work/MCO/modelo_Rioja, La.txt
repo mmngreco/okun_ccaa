@@ -1,10 +1,10 @@
-                            OLS Regression Results                            
+                                  Rioja, La                                   
 ==============================================================================
-Dep. Variable:              Rioja, La   R-squared:                       0.058
+Dep. Variable:                     du   R-squared:                       0.058
 Model:                            OLS   Adj. R-squared:                  0.028
 Method:                 Least Squares   F-statistic:                     1.925
-Date:                Tue, 11 Aug 2015   Prob (F-statistic):              0.175
-Time:                        22:01:38   Log-Likelihood:                -73.110
+Date:                Wed, 12 Aug 2015   Prob (F-statistic):              0.175
+Time:                        09:54:30   Log-Likelihood:                -73.110
 No. Observations:                  33   AIC:                             150.2
 Df Residuals:                      31   BIC:                             153.2
 Df Model:                           1                                         
@@ -13,7 +13,7 @@ Covariance Type:            nonrobust
                  coef    std err          t      P>|t|      [95.0% Conf. Int.]
 ------------------------------------------------------------------------------
 const          0.8203      0.481      1.704      0.098        -0.161     1.802
-Rioja, La     -0.1466      0.106     -1.387      0.175        -0.362     0.069
+dy            -0.1466      0.106     -1.387      0.175        -0.362     0.069
 ==============================================================================
 Omnibus:                        1.959   Durbin-Watson:                   1.639
 Prob(Omnibus):                  0.375   Jarque-Bera (JB):                1.218

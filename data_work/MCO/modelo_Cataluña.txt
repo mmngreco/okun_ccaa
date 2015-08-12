@@ -1,10 +1,10 @@
-                            OLS Regression Results                            
+                                   Cataluña                                   
 ==============================================================================
-Dep. Variable:               Cataluña   R-squared:                       0.722
+Dep. Variable:                     du   R-squared:                       0.722
 Model:                            OLS   Adj. R-squared:                  0.713
 Method:                 Least Squares   F-statistic:                     80.52
-Date:                Tue, 11 Aug 2015   Prob (F-statistic):           3.99e-10
-Time:                        22:01:38   Log-Likelihood:                -55.583
+Date:                Wed, 12 Aug 2015   Prob (F-statistic):           3.99e-10
+Time:                        09:54:30   Log-Likelihood:                -55.583
 No. Observations:                  33   AIC:                             115.2
 Df Residuals:                      31   BIC:                             118.2
 Df Model:                           1                                         
@@ -13,7 +13,7 @@ Covariance Type:            nonrobust
                  coef    std err          t      P>|t|      [95.0% Conf. Int.]
 ------------------------------------------------------------------------------
 const          2.1945      0.313      7.022      0.000         1.557     2.832
-Cataluña      -0.8734      0.097     -8.973      0.000        -1.072    -0.675
+dy            -0.8734      0.097     -8.973      0.000        -1.072    -0.675
 ==============================================================================
 Omnibus:                        1.315   Durbin-Watson:                   1.314
 Prob(Omnibus):                  0.518   Jarque-Bera (JB):                0.964
