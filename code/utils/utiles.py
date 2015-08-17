@@ -1,5 +1,5 @@
 #!/usr/bin/env
-# -*- coding:utf-8 -*-
+#-*- coding=utf-8 -*-
 
 
 def decimal_to_point(x):
@@ -18,7 +18,7 @@ def decimal_to_point(x):
         return float(x)
 
 
-def romans_to_num(x): # modificar para que no dependa de T
+def romans_to_num(x):  # modificar para que no dependa de T
     '''
     Reemplaza los numeros romanos del 1 al 4 por el caracter númerico.
     ----------
@@ -55,3 +55,111 @@ def extrae_year(x):
     year('2015T4') == 2015
     '''
     return x[x.index('T')-4:x.index('T')]
+
+
+
+def estimar_mco(df, endogena, exogena, regiones):
+    '''
+        Estima el modelo mco, para cada columna del dataframe,
+        que contiene dos variables.
+        ---
+        df: dataframe
+        endogena: nombre de la variable del df.
+        exogena: nombre de la variable del df.
+        regiones: nombres de las regiones.
+        return (sumr, betas, modelos)
+        '''
+    
+    from numpy import divide
+    sumr = dict()
+    betas = dict()
+    modelos = dict()
+    
+    for i, ca in enumerate(regiones):
+        x = sm.add_constant(df[exogena][ca])
+        mod = sm.OLS(endog=df[endogena][ca], exog=x, missing='drop')
+        res = mod.fit()
+        # guardar datos:
+        modelos[ca] = res
+        sumr[ca] = res.summary(xname=['const', endogena],
+                               yname=exogena,
+                               title=ca)
+        betas[ca] = [res.params[0],
+                     res.params[1],
+                     -divide(res.params[0], res.params[1]),
+                     res.rsquared,
+                     res.bse[0],
+                     res.bse[1]]
+
+    return (sumr, betas, modelos)
+
+
+def crear_df(df_list, keys=['empleo', 'paro', 'pib']):
+    '''
+        Crea un dataframe con los dataframes pasados mediante pd.concat.
+        ---
+        df_list: lista de df, [df_empleo, df_paro, df_pib]
+        keys: lista con los nombres de las variables representadas en cada df.
+        ---
+        return df
+        '''
+
+    df = pd.concat(df_list,
+                   axis= 1,
+                   keys=keys,
+                   names=['Variables', 'Regiones'])
+    return df
+
+
+def resumen_mco(dicc, nombres_latex, ):
+    '''
+        resumen de los modelos mco:
+        ---
+        dicc: Diccionario donde keys = Regiones,
+            values = lista de Valores del mco.
+        nombres_parametros: Nombres de los parámetros que contiene la lista.
+        return: df ordenado por R² descendente.
+        '''
+    if nombres_latex == 0:
+        nombres_parametros = ['b0', 'b1', 'umbral', 'R2', 'se_b0', 'se_b1']
+    else:
+        nombres_parametros = ['$β_0$', '$β_1$', 'umbral', '$R^2$', '$se_{β_0}$', '$se_{β_1}$']
+    mco_paro = DataFrame(dicc, index=nombres_parametros).T.sort(nombres_parametros[3], ascending=False)
+    return mco_paro
+
+
+def guardar_mco(resumen, etiqueta):
+    '''
+        Guarda los modelos MCO pasados como diccionario en
+        formato HTML y TXT, en la carpeta data_work/MCO/.
+        ---
+        Argumentos:
+        - resumen: Diccionario creado en statsmodels con
+        la salida sumary, tabla resúmen de cada model mco.
+        - etiqueta: Etiqueta del modelo 'modelos_u'= paro ; 'modelos_l'= empleo; 'modelos_y': PIB.
+        ---
+        e.j.:
+        guardar_mco(diccionario_mco, 'modelos_gls_outliers') -> Guarda data_work/MCO/modelos_gls_outliers.html y
+        data_work/MCO/modelos_gls_outliers.txt
+        return: None.
+        '''
+    with open(u'data_work/MCO/%s.html' % etiqueta, "w") as fweb:
+        for k, v in resumen.items():
+            print('<h1>{}</h1>'.format(k), file=fweb)
+            print(resumen[k].as_html(), file=fweb)
+            print(u'</br></br></br>', file=fweb)
+        fweb.close()
+    print('%s.html guardado.' % etiqueta)
+
+    n = 0
+    with open('data_work/MCO/%s.txt' % etiqueta, "w") as f:
+        for k, v in resumen.items():
+            n += 1
+            print(str(n), file=f)
+            print(k, file=f)
+            print(v.as_text(), file=f)
+            print('\n\n\n', file=f)
+        f.close()
+    print('%s.txt guardado.' % etiqueta)
+    print('Archivos Guardados Correctamente.')
+    return None

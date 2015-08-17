@@ -1,74 +1,12 @@
 1
-España
-                                    España                                    
-==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.845
-Model:                            OLS   Adj. R-squared:                  0.840
-Method:                 Least Squares   F-statistic:                     174.3
-Date:                Mon, 17 Aug 2015   Prob (F-statistic):           1.70e-14
-Time:                        09:06:54   Log-Likelihood:                -56.867
-No. Observations:                  34   AIC:                             117.7
-Df Residuals:                      32   BIC:                             120.8
-Df Model:                           1                                         
-Covariance Type:            nonrobust                                         
-==============================================================================
-                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
-------------------------------------------------------------------------------
-const         -1.9226      0.327     -5.883      0.000        -2.588    -1.257
-dy             1.3624      0.103     13.203      0.000         1.152     1.573
-==============================================================================
-Omnibus:                        1.342   Durbin-Watson:                   0.699
-Prob(Omnibus):                  0.511   Jarque-Bera (JB):                0.495
-Skew:                           0.216   Prob(JB):                        0.781
-Kurtosis:                       3.403   Cond. No.                         4.79
-==============================================================================
-
-Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-
-
-
-
-2
-Navarra, Comunidad Foral de
-                         Navarra, Comunidad Foral de                          
-==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.549
-Model:                            OLS   Adj. R-squared:                  0.535
-Method:                 Least Squares   F-statistic:                     39.01
-Date:                Mon, 17 Aug 2015   Prob (F-statistic):           5.34e-07
-Time:                        09:06:54   Log-Likelihood:                -70.603
-No. Observations:                  34   AIC:                             145.2
-Df Residuals:                      32   BIC:                             148.3
-Df Model:                           1                                         
-Covariance Type:            nonrobust                                         
-==============================================================================
-                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
-------------------------------------------------------------------------------
-const         -0.3061      0.436     -0.703      0.487        -1.193     0.581
-dy             0.7436      0.119      6.246      0.000         0.501     0.986
-==============================================================================
-Omnibus:                        0.381   Durbin-Watson:                   1.724
-Prob(Omnibus):                  0.827   Jarque-Bera (JB):                0.531
-Skew:                           0.005   Prob(JB):                        0.767
-Kurtosis:                       2.388   Cond. No.                         4.81
-==============================================================================
-
-Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-
-
-
-
-3
 Asturias, Principado de
                            Asturias, Principado de                            
 ==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.324
+Dep. Variable:                     dy   R-squared:                       0.324
 Model:                            OLS   Adj. R-squared:                  0.303
 Method:                 Least Squares   F-statistic:                     15.36
 Date:                Mon, 17 Aug 2015   Prob (F-statistic):           0.000440
-Time:                        09:06:54   Log-Likelihood:                -79.324
+Time:                        19:21:05   Log-Likelihood:                -79.324
 No. Observations:                  34   AIC:                             162.6
 Df Residuals:                      32   BIC:                             165.7
 Df Model:                           1                                         
@@ -77,7 +15,7 @@ Covariance Type:            nonrobust
                  coef    std err          t      P>|t|      [95.0% Conf. Int.]
 ------------------------------------------------------------------------------
 const         -1.2093      0.529     -2.287      0.029        -2.286    -0.132
-dy             0.7147      0.182      3.919      0.000         0.343     1.086
+dl             0.7147      0.182      3.919      0.000         0.343     1.086
 ==============================================================================
 Omnibus:                        1.566   Durbin-Watson:                   1.208
 Prob(Omnibus):                  0.457   Jarque-Bera (JB):                1.217
@@ -91,356 +29,15 @@ Warnings:
 
 
 
-4
-Canarias
-                                   Canarias                                   
-==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.523
-Model:                            OLS   Adj. R-squared:                  0.508
-Method:                 Least Squares   F-statistic:                     35.12
-Date:                Mon, 17 Aug 2015   Prob (F-statistic):           1.34e-06
-Time:                        09:06:54   Log-Likelihood:                -84.501
-No. Observations:                  34   AIC:                             173.0
-Df Residuals:                      32   BIC:                             176.1
-Df Model:                           1                                         
-Covariance Type:            nonrobust                                         
-==============================================================================
-                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
-------------------------------------------------------------------------------
-const         -0.7155      0.670     -1.068      0.294        -2.081     0.650
-dy             1.0823      0.183      5.927      0.000         0.710     1.454
-==============================================================================
-Omnibus:                        1.559   Durbin-Watson:                   1.525
-Prob(Omnibus):                  0.459   Jarque-Bera (JB):                1.319
-Skew:                          -0.466   Prob(JB):                        0.517
-Kurtosis:                       2.749   Cond. No.                         4.94
-==============================================================================
-
-Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-
-
-
-
-5
-Castilla y León
-                               Castilla y León                                
-==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.296
-Model:                            OLS   Adj. R-squared:                  0.274
-Method:                 Least Squares   F-statistic:                     13.47
-Date:                Mon, 17 Aug 2015   Prob (F-statistic):           0.000877
-Time:                        09:06:54   Log-Likelihood:                -76.888
-No. Observations:                  34   AIC:                             157.8
-Df Residuals:                      32   BIC:                             160.8
-Df Model:                           1                                         
-Covariance Type:            nonrobust                                         
-==============================================================================
-                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
-------------------------------------------------------------------------------
-const         -0.8603      0.511     -1.684      0.102        -1.901     0.181
-dy             0.6479      0.177      3.670      0.001         0.288     1.008
-==============================================================================
-Omnibus:                        0.525   Durbin-Watson:                   1.007
-Prob(Omnibus):                  0.769   Jarque-Bera (JB):                0.138
-Skew:                          -0.151   Prob(JB):                        0.933
-Kurtosis:                       3.075   Cond. No.                         3.77
-==============================================================================
-
-Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-
-
-
-
-6
-Murcia, Región de
-                              Murcia, Región de                               
-==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.621
-Model:                            OLS   Adj. R-squared:                  0.609
-Method:                 Least Squares   F-statistic:                     52.35
-Date:                Mon, 17 Aug 2015   Prob (F-statistic):           3.22e-08
-Time:                        09:06:54   Log-Likelihood:                -82.683
-No. Observations:                  34   AIC:                             169.4
-Df Residuals:                      32   BIC:                             172.4
-Df Model:                           1                                         
-Covariance Type:            nonrobust                                         
-==============================================================================
-                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
-------------------------------------------------------------------------------
-const         -1.1088      0.649     -1.710      0.097        -2.430     0.212
-dy             1.2815      0.177      7.235      0.000         0.921     1.642
-==============================================================================
-Omnibus:                        4.876   Durbin-Watson:                   2.396
-Prob(Omnibus):                  0.087   Jarque-Bera (JB):                3.348
-Skew:                           0.651   Prob(JB):                        0.188
-Kurtosis:                       3.819   Cond. No.                         5.04
-==============================================================================
-
-Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-
-
-
-
-7
-Extremadura
-                                 Extremadura                                  
-==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.030
-Model:                            OLS   Adj. R-squared:                 -0.001
-Method:                 Least Squares   F-statistic:                    0.9784
-Date:                Mon, 17 Aug 2015   Prob (F-statistic):              0.330
-Time:                        09:06:54   Log-Likelihood:                -97.687
-No. Observations:                  34   AIC:                             199.4
-Df Residuals:                      32   BIC:                             202.4
-Df Model:                           1                                         
-Covariance Type:            nonrobust                                         
-==============================================================================
-                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
-------------------------------------------------------------------------------
-const          0.0049      0.947      0.005      0.996        -1.923     1.933
-dy             0.2142      0.217      0.989      0.330        -0.227     0.655
-==============================================================================
-Omnibus:                       21.907   Durbin-Watson:                   1.691
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               36.114
-Skew:                          -1.599   Prob(JB):                     1.44e-08
-Kurtosis:                       6.907   Cond. No.                         5.57
-==============================================================================
-
-Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-
-
-
-
-8
-Balears, Illes
-                                Balears, Illes                                
-==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.053
-Model:                            OLS   Adj. R-squared:                  0.023
-Method:                 Least Squares   F-statistic:                     1.788
-Date:                Mon, 17 Aug 2015   Prob (F-statistic):              0.191
-Time:                        09:06:54   Log-Likelihood:                -95.876
-No. Observations:                  34   AIC:                             195.8
-Df Residuals:                      32   BIC:                             198.8
-Df Model:                           1                                         
-Covariance Type:            nonrobust                                         
-==============================================================================
-                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
-------------------------------------------------------------------------------
-const          1.2248      1.111      1.103      0.278        -1.037     3.487
-dy             0.3978      0.297      1.337      0.191        -0.208     1.004
-==============================================================================
-Omnibus:                        0.179   Durbin-Watson:                   1.205
-Prob(Omnibus):                  0.915   Jarque-Bera (JB):                0.080
-Skew:                           0.103   Prob(JB):                        0.961
-Kurtosis:                       2.882   Cond. No.                         6.03
-==============================================================================
-
-Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-
-
-
-
-9
-Castilla - La Mancha
-                             Castilla - La Mancha                             
-==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.598
-Model:                            OLS   Adj. R-squared:                  0.585
-Method:                 Least Squares   F-statistic:                     47.61
-Date:                Mon, 17 Aug 2015   Prob (F-statistic):           8.25e-08
-Time:                        09:06:54   Log-Likelihood:                -75.398
-No. Observations:                  34   AIC:                             154.8
-Df Residuals:                      32   BIC:                             157.8
-Df Model:                           1                                         
-Covariance Type:            nonrobust                                         
-==============================================================================
-                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
-------------------------------------------------------------------------------
-const         -0.8224      0.489     -1.681      0.103        -1.819     0.174
-dy             0.8361      0.121      6.900      0.000         0.589     1.083
-==============================================================================
-Omnibus:                        2.915   Durbin-Watson:                   1.356
-Prob(Omnibus):                  0.233   Jarque-Bera (JB):                1.596
-Skew:                          -0.225   Prob(JB):                        0.450
-Kurtosis:                       2.038   Cond. No.                         5.14
-==============================================================================
-
-Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-
-
-
-
-10
-Comunitat Valenciana
-                             Comunitat Valenciana                             
-==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.770
-Model:                            OLS   Adj. R-squared:                  0.763
-Method:                 Least Squares   F-statistic:                     107.4
-Date:                Mon, 17 Aug 2015   Prob (F-statistic):           9.37e-12
-Time:                        09:06:54   Log-Likelihood:                -69.708
-No. Observations:                  34   AIC:                             143.4
-Df Residuals:                      32   BIC:                             146.5
-Df Model:                           1                                         
-Covariance Type:            nonrobust                                         
-==============================================================================
-                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
-------------------------------------------------------------------------------
-const         -1.6054      0.434     -3.701      0.001        -2.489    -0.722
-dy             1.2949      0.125     10.365      0.000         1.040     1.549
-==============================================================================
-Omnibus:                       13.928   Durbin-Watson:                   1.164
-Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.680
-Skew:                          -1.194   Prob(JB):                     0.000394
-Kurtosis:                       5.316   Cond. No.                         4.69
-==============================================================================
-
-Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-
-
-
-
-11
-Andalucía
-                                  Andalucía                                   
-==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.737
-Model:                            OLS   Adj. R-squared:                  0.729
-Method:                 Least Squares   F-statistic:                     89.72
-Date:                Mon, 17 Aug 2015   Prob (F-statistic):           8.40e-11
-Time:                        09:06:54   Log-Likelihood:                -73.871
-No. Observations:                  34   AIC:                             151.7
-Df Residuals:                      32   BIC:                             154.8
-Df Model:                           1                                         
-Covariance Type:            nonrobust                                         
-==============================================================================
-                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
-------------------------------------------------------------------------------
-const         -1.7539      0.509     -3.447      0.002        -2.790    -0.718
-dy             1.3651      0.144      9.472      0.000         1.072     1.659
-==============================================================================
-Omnibus:                        7.371   Durbin-Watson:                   1.353
-Prob(Omnibus):                  0.025   Jarque-Bera (JB):                6.488
-Skew:                          -0.698   Prob(JB):                       0.0390
-Kurtosis:                       4.623   Cond. No.                         4.96
-==============================================================================
-
-Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-
-
-
-
-12
-Cataluña
-                                   Cataluña                                   
-==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.757
-Model:                            OLS   Adj. R-squared:                  0.750
-Method:                 Least Squares   F-statistic:                     99.93
-Date:                Mon, 17 Aug 2015   Prob (F-statistic):           2.29e-11
-Time:                        09:06:54   Log-Likelihood:                -68.405
-No. Observations:                  34   AIC:                             140.8
-Df Residuals:                      32   BIC:                             143.9
-Df Model:                           1                                         
-Covariance Type:            nonrobust                                         
-==============================================================================
-                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
-------------------------------------------------------------------------------
-const         -1.6186      0.434     -3.729      0.001        -2.503    -0.734
-dy             1.3110      0.131      9.997      0.000         1.044     1.578
-==============================================================================
-Omnibus:                        0.787   Durbin-Watson:                   1.676
-Prob(Omnibus):                  0.675   Jarque-Bera (JB):                0.807
-Skew:                          -0.179   Prob(JB):                        0.668
-Kurtosis:                       2.336   Cond. No.                         4.69
-==============================================================================
-
-Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-
-
-
-
-13
-País Vasco
-                                  País Vasco                                  
-==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.651
-Model:                            OLS   Adj. R-squared:                  0.640
-Method:                 Least Squares   F-statistic:                     59.65
-Date:                Mon, 17 Aug 2015   Prob (F-statistic):           8.33e-09
-Time:                        09:06:54   Log-Likelihood:                -65.895
-No. Observations:                  34   AIC:                             135.8
-Df Residuals:                      32   BIC:                             138.8
-Df Model:                           1                                         
-Covariance Type:            nonrobust                                         
-==============================================================================
-                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
-------------------------------------------------------------------------------
-const         -0.8874      0.359     -2.469      0.019        -1.620    -0.155
-dy             0.9628      0.125      7.723      0.000         0.709     1.217
-==============================================================================
-Omnibus:                        2.845   Durbin-Watson:                   1.624
-Prob(Omnibus):                  0.241   Jarque-Bera (JB):                2.577
-Skew:                          -0.641   Prob(JB):                        0.276
-Kurtosis:                       2.583   Cond. No.                         3.63
-==============================================================================
-
-Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-
-
-
-
-14
-Rioja, La
-                                  Rioja, La                                   
-==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.049
-Model:                            OLS   Adj. R-squared:                  0.019
-Method:                 Least Squares   F-statistic:                     1.644
-Date:                Mon, 17 Aug 2015   Prob (F-statistic):              0.209
-Time:                        09:06:54   Log-Likelihood:                -94.372
-No. Observations:                  34   AIC:                             192.7
-Df Residuals:                      32   BIC:                             195.8
-Df Model:                           1                                         
-Covariance Type:            nonrobust                                         
-==============================================================================
-                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
-------------------------------------------------------------------------------
-const          0.4555      0.847      0.538      0.594        -1.270     2.181
-dy             0.2357      0.184      1.282      0.209        -0.139     0.610
-==============================================================================
-Omnibus:                        0.468   Durbin-Watson:                   0.891
-Prob(Omnibus):                  0.791   Jarque-Bera (JB):                0.582
-Skew:                           0.012   Prob(JB):                        0.747
-Kurtosis:                       2.359   Cond. No.                         5.78
-==============================================================================
-
-Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-
-
-
-
-15
+2
 Aragón
                                     Aragón                                    
 ==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.444
+Dep. Variable:                     dy   R-squared:                       0.444
 Model:                            OLS   Adj. R-squared:                  0.426
 Method:                 Least Squares   F-statistic:                     25.53
 Date:                Mon, 17 Aug 2015   Prob (F-statistic):           1.71e-05
-Time:                        09:06:54   Log-Likelihood:                -79.633
+Time:                        19:21:05   Log-Likelihood:                -79.633
 No. Observations:                  34   AIC:                             163.3
 Df Residuals:                      32   BIC:                             166.3
 Df Model:                           1                                         
@@ -449,7 +46,7 @@ Covariance Type:            nonrobust
                  coef    std err          t      P>|t|      [95.0% Conf. Int.]
 ------------------------------------------------------------------------------
 const         -1.2301      0.603     -2.041      0.050        -2.458    -0.002
-dy             0.8765      0.173      5.053      0.000         0.523     1.230
+dl             0.8765      0.173      5.053      0.000         0.523     1.230
 ==============================================================================
 Omnibus:                        0.315   Durbin-Watson:                   1.662
 Prob(Omnibus):                  0.854   Jarque-Bera (JB):                0.493
@@ -463,29 +60,29 @@ Warnings:
 
 
 
-16
-Madrid, Comunidad de
-                             Madrid, Comunidad de                             
+3
+Castilla y León
+                               Castilla y León                                
 ==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.545
-Model:                            OLS   Adj. R-squared:                  0.531
-Method:                 Least Squares   F-statistic:                     38.32
-Date:                Mon, 17 Aug 2015   Prob (F-statistic):           6.27e-07
-Time:                        09:06:54   Log-Likelihood:                -80.031
-No. Observations:                  34   AIC:                             164.1
-Df Residuals:                      32   BIC:                             167.1
+Dep. Variable:                     dy   R-squared:                       0.296
+Model:                            OLS   Adj. R-squared:                  0.274
+Method:                 Least Squares   F-statistic:                     13.47
+Date:                Mon, 17 Aug 2015   Prob (F-statistic):           0.000877
+Time:                        19:21:06   Log-Likelihood:                -76.888
+No. Observations:                  34   AIC:                             157.8
+Df Residuals:                      32   BIC:                             160.8
 Df Model:                           1                                         
 Covariance Type:            nonrobust                                         
 ==============================================================================
                  coef    std err          t      P>|t|      [95.0% Conf. Int.]
 ------------------------------------------------------------------------------
-const         -1.2913      0.688     -1.876      0.070        -2.693     0.111
-dy             1.1150      0.180      6.190      0.000         0.748     1.482
+const         -0.8603      0.511     -1.684      0.102        -1.901     0.181
+dl             0.6479      0.177      3.670      0.001         0.288     1.008
 ==============================================================================
-Omnibus:                       35.350   Durbin-Watson:                   1.563
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              122.710
-Skew:                           2.183   Prob(JB):                     2.26e-27
-Kurtosis:                      11.219   Cond. No.                         6.08
+Omnibus:                        0.525   Durbin-Watson:                   1.007
+Prob(Omnibus):                  0.769   Jarque-Bera (JB):                0.138
+Skew:                          -0.151   Prob(JB):                        0.933
+Kurtosis:                       3.075   Cond. No.                         3.77
 ==============================================================================
 
 Warnings:
@@ -494,15 +91,294 @@ Warnings:
 
 
 
-17
+4
+Extremadura
+                                 Extremadura                                  
+==============================================================================
+Dep. Variable:                     dy   R-squared:                       0.030
+Model:                            OLS   Adj. R-squared:                 -0.001
+Method:                 Least Squares   F-statistic:                    0.9784
+Date:                Mon, 17 Aug 2015   Prob (F-statistic):              0.330
+Time:                        19:21:06   Log-Likelihood:                -97.687
+No. Observations:                  34   AIC:                             199.4
+Df Residuals:                      32   BIC:                             202.4
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+const          0.0049      0.947      0.005      0.996        -1.923     1.933
+dl             0.2142      0.217      0.989      0.330        -0.227     0.655
+==============================================================================
+Omnibus:                       21.907   Durbin-Watson:                   1.691
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               36.114
+Skew:                          -1.599   Prob(JB):                     1.44e-08
+Kurtosis:                       6.907   Cond. No.                         5.57
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+5
+Galicia
+                                   Galicia                                    
+==============================================================================
+Dep. Variable:                     dy   R-squared:                       0.479
+Model:                            OLS   Adj. R-squared:                  0.463
+Method:                 Least Squares   F-statistic:                     29.41
+Date:                Mon, 17 Aug 2015   Prob (F-statistic):           5.80e-06
+Time:                        19:21:06   Log-Likelihood:                -68.576
+No. Observations:                  34   AIC:                             141.2
+Df Residuals:                      32   BIC:                             144.2
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+const         -1.6027      0.403     -3.980      0.000        -2.423    -0.783
+dl             0.7934      0.146      5.423      0.000         0.495     1.091
+==============================================================================
+Omnibus:                        0.184   Durbin-Watson:                   2.013
+Prob(Omnibus):                  0.912   Jarque-Bera (JB):                0.395
+Skew:                          -0.007   Prob(JB):                        0.821
+Kurtosis:                       2.472   Cond. No.                         3.63
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+6
+Canarias
+                                   Canarias                                   
+==============================================================================
+Dep. Variable:                     dy   R-squared:                       0.523
+Model:                            OLS   Adj. R-squared:                  0.508
+Method:                 Least Squares   F-statistic:                     35.12
+Date:                Mon, 17 Aug 2015   Prob (F-statistic):           1.34e-06
+Time:                        19:21:06   Log-Likelihood:                -84.501
+No. Observations:                  34   AIC:                             173.0
+Df Residuals:                      32   BIC:                             176.1
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+const         -0.7155      0.670     -1.068      0.294        -2.081     0.650
+dl             1.0823      0.183      5.927      0.000         0.710     1.454
+==============================================================================
+Omnibus:                        1.559   Durbin-Watson:                   1.525
+Prob(Omnibus):                  0.459   Jarque-Bera (JB):                1.319
+Skew:                          -0.466   Prob(JB):                        0.517
+Kurtosis:                       2.749   Cond. No.                         4.94
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+7
+Murcia, Región de
+                              Murcia, Región de                               
+==============================================================================
+Dep. Variable:                     dy   R-squared:                       0.621
+Model:                            OLS   Adj. R-squared:                  0.609
+Method:                 Least Squares   F-statistic:                     52.35
+Date:                Mon, 17 Aug 2015   Prob (F-statistic):           3.22e-08
+Time:                        19:21:06   Log-Likelihood:                -82.683
+No. Observations:                  34   AIC:                             169.4
+Df Residuals:                      32   BIC:                             172.4
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+const         -1.1088      0.649     -1.710      0.097        -2.430     0.212
+dl             1.2815      0.177      7.235      0.000         0.921     1.642
+==============================================================================
+Omnibus:                        4.876   Durbin-Watson:                   2.396
+Prob(Omnibus):                  0.087   Jarque-Bera (JB):                3.348
+Skew:                           0.651   Prob(JB):                        0.188
+Kurtosis:                       3.819   Cond. No.                         5.04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+8
+Comunitat Valenciana
+                             Comunitat Valenciana                             
+==============================================================================
+Dep. Variable:                     dy   R-squared:                       0.770
+Model:                            OLS   Adj. R-squared:                  0.763
+Method:                 Least Squares   F-statistic:                     107.4
+Date:                Mon, 17 Aug 2015   Prob (F-statistic):           9.37e-12
+Time:                        19:21:06   Log-Likelihood:                -69.708
+No. Observations:                  34   AIC:                             143.4
+Df Residuals:                      32   BIC:                             146.5
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+const         -1.6054      0.434     -3.701      0.001        -2.489    -0.722
+dl             1.2949      0.125     10.365      0.000         1.040     1.549
+==============================================================================
+Omnibus:                       13.928   Durbin-Watson:                   1.164
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.680
+Skew:                          -1.194   Prob(JB):                     0.000394
+Kurtosis:                       5.316   Cond. No.                         4.69
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+9
+Andalucía
+                                  Andalucía                                   
+==============================================================================
+Dep. Variable:                     dy   R-squared:                       0.737
+Model:                            OLS   Adj. R-squared:                  0.729
+Method:                 Least Squares   F-statistic:                     89.72
+Date:                Mon, 17 Aug 2015   Prob (F-statistic):           8.40e-11
+Time:                        19:21:05   Log-Likelihood:                -73.871
+No. Observations:                  34   AIC:                             151.7
+Df Residuals:                      32   BIC:                             154.8
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+const         -1.7539      0.509     -3.447      0.002        -2.790    -0.718
+dl             1.3651      0.144      9.472      0.000         1.072     1.659
+==============================================================================
+Omnibus:                        7.371   Durbin-Watson:                   1.353
+Prob(Omnibus):                  0.025   Jarque-Bera (JB):                6.488
+Skew:                          -0.698   Prob(JB):                       0.0390
+Kurtosis:                       4.623   Cond. No.                         4.96
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+10
+Rioja, La
+                                  Rioja, La                                   
+==============================================================================
+Dep. Variable:                     dy   R-squared:                       0.049
+Model:                            OLS   Adj. R-squared:                  0.019
+Method:                 Least Squares   F-statistic:                     1.644
+Date:                Mon, 17 Aug 2015   Prob (F-statistic):              0.209
+Time:                        19:21:06   Log-Likelihood:                -94.372
+No. Observations:                  34   AIC:                             192.7
+Df Residuals:                      32   BIC:                             195.8
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+const          0.4555      0.847      0.538      0.594        -1.270     2.181
+dl             0.2357      0.184      1.282      0.209        -0.139     0.610
+==============================================================================
+Omnibus:                        0.468   Durbin-Watson:                   0.891
+Prob(Omnibus):                  0.791   Jarque-Bera (JB):                0.582
+Skew:                           0.012   Prob(JB):                        0.747
+Kurtosis:                       2.359   Cond. No.                         5.78
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+11
+País Vasco
+                                  País Vasco                                  
+==============================================================================
+Dep. Variable:                     dy   R-squared:                       0.651
+Model:                            OLS   Adj. R-squared:                  0.640
+Method:                 Least Squares   F-statistic:                     59.65
+Date:                Mon, 17 Aug 2015   Prob (F-statistic):           8.33e-09
+Time:                        19:21:06   Log-Likelihood:                -65.895
+No. Observations:                  34   AIC:                             135.8
+Df Residuals:                      32   BIC:                             138.8
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+const         -0.8874      0.359     -2.469      0.019        -1.620    -0.155
+dl             0.9628      0.125      7.723      0.000         0.709     1.217
+==============================================================================
+Omnibus:                        2.845   Durbin-Watson:                   1.624
+Prob(Omnibus):                  0.241   Jarque-Bera (JB):                2.577
+Skew:                          -0.641   Prob(JB):                        0.276
+Kurtosis:                       2.583   Cond. No.                         3.63
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+12
+España
+                                    España                                    
+==============================================================================
+Dep. Variable:                     dy   R-squared:                       0.845
+Model:                            OLS   Adj. R-squared:                  0.840
+Method:                 Least Squares   F-statistic:                     174.3
+Date:                Mon, 17 Aug 2015   Prob (F-statistic):           1.70e-14
+Time:                        19:21:05   Log-Likelihood:                -56.867
+No. Observations:                  34   AIC:                             117.7
+Df Residuals:                      32   BIC:                             120.8
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+const         -1.9226      0.327     -5.883      0.000        -2.588    -1.257
+dl             1.3624      0.103     13.203      0.000         1.152     1.573
+==============================================================================
+Omnibus:                        1.342   Durbin-Watson:                   0.699
+Prob(Omnibus):                  0.511   Jarque-Bera (JB):                0.495
+Skew:                           0.216   Prob(JB):                        0.781
+Kurtosis:                       3.403   Cond. No.                         4.79
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+13
 Cantabria
                                   Cantabria                                   
 ==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.300
+Dep. Variable:                     dy   R-squared:                       0.300
 Model:                            OLS   Adj. R-squared:                  0.278
 Method:                 Least Squares   F-statistic:                     13.72
 Date:                Mon, 17 Aug 2015   Prob (F-statistic):           0.000798
-Time:                        09:06:54   Log-Likelihood:                -87.122
+Time:                        19:21:06   Log-Likelihood:                -87.122
 No. Observations:                  34   AIC:                             178.2
 Df Residuals:                      32   BIC:                             181.3
 Df Model:                           1                                         
@@ -511,7 +387,7 @@ Covariance Type:            nonrobust
                  coef    std err          t      P>|t|      [95.0% Conf. Int.]
 ------------------------------------------------------------------------------
 const         -0.3801      0.641     -0.593      0.557        -1.685     0.925
-dy             0.6847      0.185      3.704      0.001         0.308     1.061
+dl             0.6847      0.185      3.704      0.001         0.308     1.061
 ==============================================================================
 Omnibus:                        0.928   Durbin-Watson:                   1.421
 Prob(Omnibus):                  0.629   Jarque-Bera (JB):                0.775
@@ -525,29 +401,153 @@ Warnings:
 
 
 
-18
-Galicia
-                                   Galicia                                    
+14
+Balears, Illes
+                                Balears, Illes                                
 ==============================================================================
-Dep. Variable:                     dl   R-squared:                       0.479
-Model:                            OLS   Adj. R-squared:                  0.463
-Method:                 Least Squares   F-statistic:                     29.41
-Date:                Mon, 17 Aug 2015   Prob (F-statistic):           5.80e-06
-Time:                        09:06:54   Log-Likelihood:                -68.576
-No. Observations:                  34   AIC:                             141.2
-Df Residuals:                      32   BIC:                             144.2
+Dep. Variable:                     dy   R-squared:                       0.053
+Model:                            OLS   Adj. R-squared:                  0.023
+Method:                 Least Squares   F-statistic:                     1.788
+Date:                Mon, 17 Aug 2015   Prob (F-statistic):              0.191
+Time:                        19:21:06   Log-Likelihood:                -95.876
+No. Observations:                  34   AIC:                             195.8
+Df Residuals:                      32   BIC:                             198.8
 Df Model:                           1                                         
 Covariance Type:            nonrobust                                         
 ==============================================================================
                  coef    std err          t      P>|t|      [95.0% Conf. Int.]
 ------------------------------------------------------------------------------
-const         -1.6027      0.403     -3.980      0.000        -2.423    -0.783
-dy             0.7934      0.146      5.423      0.000         0.495     1.091
+const          1.2248      1.111      1.103      0.278        -1.037     3.487
+dl             0.3978      0.297      1.337      0.191        -0.208     1.004
 ==============================================================================
-Omnibus:                        0.184   Durbin-Watson:                   2.013
-Prob(Omnibus):                  0.912   Jarque-Bera (JB):                0.395
-Skew:                          -0.007   Prob(JB):                        0.821
-Kurtosis:                       2.472   Cond. No.                         3.63
+Omnibus:                        0.179   Durbin-Watson:                   1.205
+Prob(Omnibus):                  0.915   Jarque-Bera (JB):                0.080
+Skew:                           0.103   Prob(JB):                        0.961
+Kurtosis:                       2.882   Cond. No.                         6.03
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+15
+Cataluña
+                                   Cataluña                                   
+==============================================================================
+Dep. Variable:                     dy   R-squared:                       0.757
+Model:                            OLS   Adj. R-squared:                  0.750
+Method:                 Least Squares   F-statistic:                     99.93
+Date:                Mon, 17 Aug 2015   Prob (F-statistic):           2.29e-11
+Time:                        19:21:06   Log-Likelihood:                -68.405
+No. Observations:                  34   AIC:                             140.8
+Df Residuals:                      32   BIC:                             143.9
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+const         -1.6186      0.434     -3.729      0.001        -2.503    -0.734
+dl             1.3110      0.131      9.997      0.000         1.044     1.578
+==============================================================================
+Omnibus:                        0.787   Durbin-Watson:                   1.676
+Prob(Omnibus):                  0.675   Jarque-Bera (JB):                0.807
+Skew:                          -0.179   Prob(JB):                        0.668
+Kurtosis:                       2.336   Cond. No.                         4.69
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+16
+Navarra, Comunidad Foral de
+                         Navarra, Comunidad Foral de                          
+==============================================================================
+Dep. Variable:                     dy   R-squared:                       0.549
+Model:                            OLS   Adj. R-squared:                  0.535
+Method:                 Least Squares   F-statistic:                     39.01
+Date:                Mon, 17 Aug 2015   Prob (F-statistic):           5.34e-07
+Time:                        19:21:06   Log-Likelihood:                -70.603
+No. Observations:                  34   AIC:                             145.2
+Df Residuals:                      32   BIC:                             148.3
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+const         -0.3061      0.436     -0.703      0.487        -1.193     0.581
+dl             0.7436      0.119      6.246      0.000         0.501     0.986
+==============================================================================
+Omnibus:                        0.381   Durbin-Watson:                   1.724
+Prob(Omnibus):                  0.827   Jarque-Bera (JB):                0.531
+Skew:                           0.005   Prob(JB):                        0.767
+Kurtosis:                       2.388   Cond. No.                         4.81
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+17
+Madrid, Comunidad de
+                             Madrid, Comunidad de                             
+==============================================================================
+Dep. Variable:                     dy   R-squared:                       0.545
+Model:                            OLS   Adj. R-squared:                  0.531
+Method:                 Least Squares   F-statistic:                     38.32
+Date:                Mon, 17 Aug 2015   Prob (F-statistic):           6.27e-07
+Time:                        19:21:06   Log-Likelihood:                -80.031
+No. Observations:                  34   AIC:                             164.1
+Df Residuals:                      32   BIC:                             167.1
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+const         -1.2913      0.688     -1.876      0.070        -2.693     0.111
+dl             1.1150      0.180      6.190      0.000         0.748     1.482
+==============================================================================
+Omnibus:                       35.350   Durbin-Watson:                   1.563
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              122.710
+Skew:                           2.183   Prob(JB):                     2.26e-27
+Kurtosis:                      11.219   Cond. No.                         6.08
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+18
+Castilla - La Mancha
+                             Castilla - La Mancha                             
+==============================================================================
+Dep. Variable:                     dy   R-squared:                       0.598
+Model:                            OLS   Adj. R-squared:                  0.585
+Method:                 Least Squares   F-statistic:                     47.61
+Date:                Mon, 17 Aug 2015   Prob (F-statistic):           8.25e-08
+Time:                        19:21:06   Log-Likelihood:                -75.398
+No. Observations:                  34   AIC:                             154.8
+Df Residuals:                      32   BIC:                             157.8
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+const         -0.8224      0.489     -1.681      0.103        -1.819     0.174
+dl             0.8361      0.121      6.900      0.000         0.589     1.083
+==============================================================================
+Omnibus:                        2.915   Durbin-Watson:                   1.356
+Prob(Omnibus):                  0.233   Jarque-Bera (JB):                1.596
+Skew:                          -0.225   Prob(JB):                        0.450
+Kurtosis:                       2.038   Cond. No.                         5.14
 ==============================================================================
 
 Warnings:
