@@ -1,0 +1,39 @@
+                                   b0        b1    umbral        R2  \
+España                       0.001183 -0.971343  0.001218  0.840271   
+Comunitat Valenciana         0.001520 -0.871633  0.001744  0.792966   
+Madrid, Comunidad de         0.001298 -0.955497  0.001359  0.767720   
+Murcia, Región de            0.000183 -0.971011  0.000188  0.746508   
+Andalucía                    0.000002 -0.954277  0.000003  0.728487   
+Balears, Illes               0.001220 -0.651414  0.001873  0.653096   
+Cataluña                     0.002737 -0.664784  0.004117  0.649105   
+País Vasco                   0.002026 -0.968451  0.002092  0.642349   
+Castilla - La Mancha         0.001570 -1.437670  0.001092  0.514364   
+Aragón                       0.001264 -0.778640  0.001623  0.504697   
+Canarias                     0.000363 -0.902235  0.000402  0.458198   
+Cantabria                   -0.000314 -0.879264 -0.000357  0.380339   
+Navarra, Comunidad Foral de  0.003090 -0.998716  0.003094  0.367198   
+Galicia                     -0.000281 -0.539862 -0.000521  0.315745   
+Asturias, Principado de      0.000080 -0.653197  0.000122  0.296811   
+Castilla y León              0.000006 -0.614764  0.000009  0.239691   
+Rioja, La                    0.000436 -0.371672  0.001174  0.077410   
+Extremadura                 -0.000277 -0.330175 -0.000840  0.049916   
+
+                                  p-value  
+España                       1.229698e-10  
+Comunitat Valenciana         2.493287e-09  
+Madrid, Comunidad de         9.500898e-09  
+Murcia, Región de            2.628445e-08  
+Andalucía                    5.854363e-08  
+Balears, Illes               1.029104e-06  
+Cataluña                     1.176984e-06  
+País Vasco                   1.472401e-06  
+Castilla - La Mancha         5.471636e-05  
+Aragón                       6.920395e-05  
+Canarias                     2.024492e-04  
+Cantabria                    1.025873e-03  
+Navarra, Comunidad Foral de  1.325144e-03  
+Galicia                      3.464482e-03  
+Asturias, Principado de      4.862139e-03  
+Castilla y León              1.299096e-02  
+Rioja, La                    1.780827e-01  
+Extremadura                  2.830256e-01  
